@@ -32,4 +32,4 @@ Colors:
    
     grey - synced (Commited)
     Red - Modified
-    green - added
+    green - comitted, waiting for commit

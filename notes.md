@@ -38,3 +38,13 @@ Ignoring files:
 
     Files can be ignored, such as settings, TO DO list, system files etc
     using ".gitignore"
+
+Deleting files:
+
+    Can delete manually via the IDE, but must add & commit afterwards.
+    Can also use "git rm filename" to remove a file using git terminal and automatically add it to staging.
+
+Rename files:
+
+    Can manually rename the file via the IDE. Git however will log 2 actions: Deletion and then creating new file with that name.
+    can also use "git mv oldName newName"

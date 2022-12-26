@@ -33,3 +33,8 @@ Colors:
     grey - synced (Commited)
     Red - Modified
     green - comitted, waiting for commit
+
+Ignoring files:
+
+    Files can be ignored, such as settings, TO DO list, system files etc
+    using ".gitignore"

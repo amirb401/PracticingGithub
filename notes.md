@@ -27,3 +27,9 @@ Terminal -> "git status"
 Terminal -> "git restore ."
 
 	restores the files back to the last commit
+
+Colors:
+   
+    grey - synced (Commited)
+    Red - Modified
+    green - added

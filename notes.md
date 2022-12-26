@@ -17,8 +17,9 @@ Terminal -> "git commit -m "message""
 	
 Terminal -> "git log"
 
-    info on all commits.
+    info on all commits. press "q" to exit scrolled log.
     using this we can also see on which branch we work on. (HEAD -> branchName).
+    when having many changes, easier to see log via "git log --oneline" to collapse all into one liners
 	
 Terminal -> "git status"
 
@@ -48,3 +49,7 @@ Rename files:
 
     Can manually rename the file via the IDE. Git however will log 2 actions: Deletion and then creating new file with that name.
     can also use "git mv oldName newName"
+
+Difference between files:
+
+    "git diff" will show the difference between files if there are any

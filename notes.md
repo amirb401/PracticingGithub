@@ -53,3 +53,8 @@ Rename files:
 Difference between files:
 
     "git diff" will show the difference between files if there are any
+
+Resetting back to an old version:
+
+    "git reset id" will return the changes to an older commit.
+    obtain the necessary id using the git log command.

@@ -58,3 +58,23 @@ Resetting back to an old version:
 
     "git reset id" will return the changes to an older commit.
     obtain the necessary id using the git log command.
+
+Branches, Merging & Deleting:
+
+    Moving between branches:
+    "git branch" will show us all branches in the project.
+    "git switch -c NAME" will copy the current branch into a new branch with the new name. History of the old branch will also be copied.
+
+    Merging:
+    "git merge branchName" will merge changes from the specified branchName INTO the current branch.
+    so to use it, we will usually switch back to the main branch, and then use the command with the name of the other branch to merge into.
+
+    Deleting a branch:
+    "git branch --delete NAME" will delete the branch provided.
+
+Git FLOW:
+    
+    1. Create new branch for a feature or a fix.
+    2. Make changes on the new branch
+    3. Merge changes into master
+    4. Delete old branch

@@ -75,6 +75,6 @@ Branches, Merging & Deleting:
 Git FLOW:
     
     1. Create new branch for a feature or a fix.
-    2. Make changes on the new branch
-    3. Merge changes into master
-    4. Delete old branch
+    2. Make changes on the new branch.
+    3. Merge changes into master.
+    4. Delete old branch.

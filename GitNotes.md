@@ -78,3 +78,12 @@ Git FLOW:
     2. Make changes on the new branch.
     3. Merge changes into master.
     4. Delete old branch.
+
+Stashing code:
+
+    "git stash" will take all the current changes and temporarily save them aside,
+    that way you are able to go back and work on something more urgently requested without committing and completing your code.
+    
+    "git stash list" will list all stored changes
+    "git stash apply" will apply a stash set of changes 
+    "git stash pop" will remove stash from the list
